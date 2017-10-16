@@ -1,12 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.themaxtech.svm" version="1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="svm" version="1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <author>THEMAXTECH</author>
     <name>SVM CBSE</name>
+    <preference name="windows-identity-name" value="1715THEMAXTECH.SVMCBSE" />   
     <description>
       Welcome to Shivaani Vidhyaa Mandir (SVM)
-    </description>
-    <author email="maxtechapps@gmail.com" href="http://themaxtech.com">
-        THEMAXTECH
-    </author>
+    </description> 
     <feature name="http://api.phonegap.com/1.0/device" /> 
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="cli-6.5.0" />

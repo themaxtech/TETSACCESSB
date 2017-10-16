@@ -1,18 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.themaxtech.svm" version="1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="svm" version="1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <feature name="Camera">
         <param name="browser-package" value="Camera" />
     </feature>
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
+    <author>THEMAXTECH</author>
     <name>SVM CBSE</name>
     <description>
       Welcome to Shivaani Vidhyaa Mandir (SVM)
     </description>
-    <author email="maxtechapps@gmail.com" href="http://themaxtech.com">
-        THEMAXTECH
-    </author>
     <icon src="icon.png" />
     <icon gap:platform="ios" height="57" src="res/icon/ios/icon-57.png" width="57" />
     <icon gap:platform="ios" height="120" src="res/icon/ios/icon-120.png" width="120" />
@@ -30,6 +28,7 @@
         <string>For view school image gallery</string>
     </gap:config-file>
     <access origin="*" />
+    <preference name="windows-identity-name" value="1715THEMAXTECH.SVMCBSE" />
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="cli-6.5.0" />
     <preference name="orientation" value="default" />
