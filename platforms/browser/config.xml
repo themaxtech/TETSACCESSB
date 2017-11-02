@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="svm" version="1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.themaxtech.svm" version="1.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <feature name="Camera">
         <param name="browser-package" value="Camera" />
     </feature>
@@ -28,7 +28,6 @@
         <string>For view school image gallery</string>
     </gap:config-file>
     <access origin="*" />
-    <preference name="windows-identity-name" value="1715THEMAXTECH.SVMCBSE" />
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="cli-6.0.0" />
     <preference name="orientation" value="default" />
